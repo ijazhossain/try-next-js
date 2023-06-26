@@ -1,7 +1,7 @@
 
 
 const page = ({ params }) => {
-    console.log(params.segments);
+    // console.log(params.segments);
     const [year, id] = params.segments || [];
     return (
         <div>
